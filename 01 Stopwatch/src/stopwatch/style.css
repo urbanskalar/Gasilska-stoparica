@@ -1,0 +1,303 @@
+/*@font-face {
+    src: url('./font/MojCustomFont.ttf');
+}*/
+
+@font-face {
+    src: url('./font/LCDBOLD.ttf');
+}
+
+@font-face {
+    src: url('./font/RobotoCondensed-Regular.ttf');
+}
+
+.root{
+    -fx-font-family: "Roboto Condensed";
+    
+    -fx-custom-color: #30e6f1;
+    -fx-primary: #212121;
+    -fx-secondary: #171717;
+    
+    /* A bright blue for highlighting/accenting objects.  For example: selected
+     * text; selected items in menus, lists, trees, and tables; progress bars;
+     * default buttons.
+     */
+    -fx-accent: -fx-custom-color;
+
+    /* A bright blue for the focus indicator of objects. Typically used as the
+     * first color in -fx-background-color for the "focused" pseudo-class. Also
+     * typically used with insets of -1.4 to provide a glowing effect.
+     *
+     */
+    -fx-focus-color: -fx-custom-color;
+    
+    -fx-highlight-text-fill: -fx-primary;
+    /*-fx-highlight-fill: derive(#1E90FF, 100%);*/
+        
+}
+
+#Time {
+    -fx-font-family: 'LCD';
+    -fx-text-fill: -fx-custom-color;
+    -fx-alignment: center;
+    -fx-font-size: 139pt;
+    /*-fx-font-size: 300pt;*/
+}
+
+#AllResults {
+    -fx-font-family: 'LCD';
+    -fx-font-size: 14pt;
+    
+}
+
+#Intermediate {
+    -fx-font-family: 'LCD';
+    -fx-font-size: 14pt;
+}
+
+.label{
+    -fx-text-fill: -fx-custom-color;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-color: -fx-primary;
+    -fx-border-color: -fx-custom-color;
+    -fx-font-size : 14;
+    -fx-text-fill: -fx-custom-color;
+    -fx-border-radius: 35;
+    -fx-background-radius: 35;
+}
+
+.button:hover {
+    -fx-background-color: -fx-custom-color;
+    -fx-text-fill: -fx-primary;
+}
+
+.button SVGPath{
+   -fx-fill:  -fx-custom-color;
+}
+
+.button:hover SVGPath{
+   -fx-fill:  -fx-primary;
+}
+
+.button:pressed SVGPath{
+   -fx-rotate: 10;
+}
+
+.table-view {
+    -fx-base: -fx-secondary;
+    -fx-control-inner-background: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-custom-color;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-alignment: center-left;
+}
+
+.table-view .column-header-background,
+.table-view .column-header {
+    -fx-base: -fx-secondary;
+    -fx-background-color:-fx-secondary;
+}
+
+.table-view:focused .table-row-cell:filled:selected {
+    -fx-background-color: -fx-custom-color;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-row-cell:filled:selected,
+.table-row-cell:filled > .table-cell:selected {
+    -fx-background-color: -fx-custom-color;
+    -fx-table-cell-border-color: transparent;
+    
+}
+
+.table-view .scroll-bar .thumb {
+    -fx-background-color: -fx-primary;
+}
+
+.table-view .scroll-bar:vertical .increment-button ,
+.table-view .scroll-bar:vertical .decrement-button {
+
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 12 0 0;
+
+}
+
+.table-view .scroll-bar .increment-arrow,
+.table-view .scroll-bar .decrement-arrow{
+    -fx-shape: " ";	
+    -fx-padding:0;
+}
+
+.table-view .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.table-view .scroll-bar:vertical .track{
+    -fx-opacity: 0;
+}
+
+#AnchorPane {
+    -fx-background-color: -fx-primary;
+}
+
+#ap{
+    -fx-background-color: -fx-primary;
+}
+
+#ap2{
+    -fx-background-color: -fx-primary;
+}
+
+#StartStopResetButton {
+    -fx-min-width: 110px;
+    -fx-min-height: 35px;
+    -fx-max-width: 110px;
+    -fx-max-height: 35px;
+}
+
+
+#SettingsButton {
+    -fx-shape: 'M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0';
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+}
+
+
+
+#DeleteButton {
+    -fx-shape: 'M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0';
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+}
+
+#SaveButton {
+    -fx-shape: 'M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0';
+    /*-fx-font-family: 'Glyphter';
+    -fx-font-size : 12;*/
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+}
+
+
+
+#Save2Button {
+    -fx-shape: 'M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0';
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+}
+
+
+
+#DoneButton {
+    -fx-shape: 'M-20,0a20,20 0 1,0 40,0a20,20 0 1,0 -40,0';
+    -fx-min-width: 35px;
+    -fx-min-height: 35px;
+    -fx-max-width: 35px;
+    -fx-max-height: 35px;
+}
+
+
+.scroll-pane {
+    -fx-border-color:transparent;
+    -fx-background-color: transparent;
+    -fx-padding: 0 0 0 0;
+}
+
+.scroll-pane .scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-opacity: 0;
+    
+}
+
+
+
+.text-field{
+    -jfx-focus-color: -fx-custom-color;
+    -jfx-unfocus-color: #313131;
+    -jfx-label-float: true;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: -fx-custom-color;
+}
+
+
+.combo-box{
+    -jfx-focus-color: -fx-custom-color;
+    -jfx-unfocus-color: #313131;
+    -jfx-label-float: true;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: -fx-custom-color;
+}
+
+.combo-box .list-cell{
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view{
+    -fx-padding: 0;
+    -fx-background-color: -fx-secondary;
+    -fx-padding: 0 0 0 0;
+}
+
+
+.combo-box .scroll-bar .thumb {
+    -fx-background-color: -fx-primary;
+}
+
+.combo-box .scroll-bar:vertical .increment-button ,
+.combo-box .scroll-bar:vertical .decrement-button {
+
+    -fx-background-color:transparent;
+    -fx-background-radius: 0em;
+    -fx-padding:0 12 0 0;
+
+}
+
+.combo-box .scroll-bar .increment-arrow,
+.combo-box .scroll-bar .decrement-arrow{
+    -fx-shape: " ";	
+    -fx-padding:0;
+}
+
+.combo-box .scroll-bar:vertical {
+    -fx-background-color: transparent;
+}
+
+.combo-box .scroll-bar:vertical .track{
+    -fx-opacity: 0;
+}
+
+
+.combo-box-popup .list-view .list-cell:filled:selected, .combo-box-popup .list-view .list-cell:filled:selected:hover 
+{
+    -fx-background-color: -fx-custom-color;
+    -fx-text-fill: -fx-primary;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover 
+{
+    -fx-background-color: -fx-custom-color;
+    -fx-text-fill: -fx-primary;
+}
+
+.combo-box-popup .list-view .list-cell 
+{
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: white;
+}
+
+
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TikTakApp.jnlp">
+  <information>
+    <title>TikTakApp</title>
+    <vendor>urban</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TikTakApp.jar" size="197102" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2400771" download="eager" />
+    <jar href="lib\jl1.0.1.jar" size="105363" download="eager" />
+    <jar href="lib\jssc.jar" size="152500" download="eager" />
+    <jar href="lib\mp3spi1.9.5.jar" size="24696" download="eager" />
+    <jar href="lib\tritonus_share-0.3.6.jar" size="105684" download="eager" />
+    <jar href="lib\tritonus_share.jar" size="102723" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TikTakApp" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="stopwatch.Stopwatch"  name="TikTakApp" />
+  <update check="always"/>
+</jnlp>
