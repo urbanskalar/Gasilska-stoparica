@@ -5,4 +5,6 @@ MC000048 - 2 wire terminal block x3
   
 faston connector male PCB x3  
 Female pin headers - 15 pin x2  
+10 wire flat cable x1  
+Arduino Nano x1  
 ```
