@@ -8,7 +8,7 @@ Sistem je bil razvit kot pomagalo pri treningih za pripravo na tekme v spajanju 
 
 Aplikacija je spisana v javi, za njeno delovanje pa je potrebno imeti nameščeno JDK/JRE 1.8. Sam sem uporabljal ```java version "1.8.0_261"```, z ostalimi različicami Jave ni bilo stestirano in morda ne bo delovalo. Če želite preveriti katero verzijo jave imate nameščeno, lahko to storite z ukazom terminalu/cmd ```java -version```. Aplikacijo se zažene z dvojnim klikom na ```./01 Stopwatch/dist/TikTakApp.jar``` ali z ukazom v terminalu/cmd ```java -jar ./01 Stopwatch/dist/TikTakApp.jar```.  
 
-Štoparico se lahko štarta, ustavi in resetira preko gumba na dnu okna. Do njega obstaja tudi bližnjica preko tipke ```Alt Gr``` na tipkovnici. Aplikacija vsebuje tabelo za sledenje rezultatom na treningu. Vnose v tabeli je možno tudi brisati in izvoziti v obliki csv datoteke. Možno je tudi spremljanje vmesnih časov. Vmesni časi se shranjujeo ob pritisku tipke ```+``` na tipkovnici.  
+Štoparico se lahko štarta, ustavi in resetira preko gumba na dnu okna. Do njega obstaja tudi bližnjica preko tipke ```Alt Gr``` na tipkovnici. Aplikacija vsebuje tabelo za sledenje rezultatom na treningu. Vnose v tabeli je možno tudi brisati in izvoziti v obliki csv datoteke. Možno je tudi spremljanje vmesnih časov. Vmesni časi se shranjujejo ob pritisku tipke ```+``` na tipkovnici.  
 
 <p align="center">
   <img src="https://github.com/urbanskalar/Gasilska-stoparica/blob/main/05%20slike/%C5%A1toparica.jpg">
